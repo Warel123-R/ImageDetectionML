@@ -1,0 +1,25 @@
+{
+  "name": "reactnodeaws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1436.0",
+    "axios": "^1.4.0",
+    "express-fileupload": "^1.4.0",
+    "mongoose": "^7.4.3",
+    "node-fetch": "^2.6.12",
+    "serverless": "^3.34.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
